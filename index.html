@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA QUIZ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header for viewing highscore and timer -->
+    <header>
+        <ul>
+            <li id="scoreboard"><a href="HighScore.html">View Highscore</a></li>
+            <li id="countdown"></li>
+        </ul>
+    </header>
+
+    <!-- main content -->
+    
+    <div class = "container">
+        <!-- center box -->
+        <div class = "content">
+           
+        </div>
+    </div>
+
+    <!-- Score Board name -->
+            <div id = "highscoreDiv" class = "hidden">
+                <div class = highscoreStyle>
+                <p id = "score" ></p>
+                <br>
+                <h2 class = "contentHeader">Enter name:</h2>
+                <input id = "name">
+                <br>
+                <button id = "savesScore">Save Score</button>
+                <button onClick="window.location.reload();">Replay</button>
+                </div>
+            </div> 
+
+    <!-- <script src="scoreboard.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>
